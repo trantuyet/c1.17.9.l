@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT7</title>
+</head>
+<body>
+<script>
+    let a = + prompt('Số giờ gọi');
+    let b = + prompt('số tin nhắn');
+    let c = (a*1000 + b*200);
+    if (c >= 200000) {
+        alert('Tiền cước bạn phải đóng là: ' + c)
+    }
+    else if (c < 200000 && c >=100000) {
+        alert('Tiền cước bạn phải đóng là: ' + (c*80/100))
+    }
+    else
+        alert('Tiền cước bạn phải đóng là: ' + (c*50/1100))
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT5</title>
+</head>
+<body>
+<script>
+    let a = + prompt('Điểm bài kiểm tra');
+    let b = + prompt('Điểm bài thi giữa kỳ');
+    let c = + prompt('Điểm bài thi cuối kỳ');
+    let d = (a + b*2 + c*2)/5;
+    if (d >= 8) {
+        alert('Học sinh giỏi')
+    }
+    else if (d < 5) {
+        alert('Học sinh yếu')
+    }
+    else {
+        alert('Học sinh trung bình')
+    }
+</script>
+</body>
+</html>
